@@ -943,9 +943,9 @@
 		 lobj.add(sobj);
 		
 	 }
-    /////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplayAll	
+        /////////////////////////////////////////////////////////////////////
+        //
+        //  Function Name :  DisplayAll	
 	//  Description   :  Used to Display all Data
 	//  Input         :  NONE
 	//  Output        :  void
@@ -968,9 +968,9 @@
 		 }
 		 System.out.println();
 	 }
-    /////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplaySpecifiC	
+        /////////////////////////////////////////////////////////////////////
+        //
+        //  Function Name :  DisplaySpecifiC	
 	//  Description   :  Used to Display by RollNo or Marks
 	//  Input         :  integer
 	//  Output        :  void
@@ -997,9 +997,9 @@
 		 }
 	 }
    
-    /////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplaySpecifiC	
+        /////////////////////////////////////////////////////////////////////
+        //
+        //  Function Name :  DisplaySpecifiC	
 	//  Description   :  Used to Display by Name or Address
 	//  Input         :  String
 	//  Output        :  void
@@ -1025,9 +1025,9 @@
 		 }
 	 }
    
-    /////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplaySpecifiC	
+        /////////////////////////////////////////////////////////////////////
+    	//
+        //  Function Name :  DisplaySpecifiC	
 	//  Description   :  Used to Display by Name or Address
 	//  Input         :  String
 	//  Output        :  void
@@ -1050,8 +1050,8 @@
 	 }
 	
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplaySpecifiC	
+        //
+        //  Function Name :  DisplaySpecifiC	
 	//  Description   :  Used to Display by marks and Address
 	//  Input         :  String
 	//  Output        :  void
@@ -1078,8 +1078,8 @@
 		 }
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  AggregateMinMarks	
+        //
+        //  Function Name :  AggregateMinMarks	
 	//  Description   :  Used to Display by Minimum Aggregate
 	//  Input         :  NONE
 	//  Output        :  void
@@ -1108,8 +1108,8 @@
 			temp.DisplayData();
 	 }
  	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  AggregateMaxMarks	
+        //
+        //  Function Name :  AggregateMaxMarks	
 	//  Description   :  Used to Display by Maximum Aggregate
 	//  Input         :  NONE
 	//  Output        :  void
@@ -1139,8 +1139,8 @@
 			temp.DisplayData();
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  CountByMark	
+        //
+        //  Function Name :  CountByMark	
 	//  Description   :  Used to Display Count by student marks
 	//  Input         :  integer
 	//  Output        :  void
@@ -1168,8 +1168,8 @@
 		 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  AggregateAvg	
+        //
+        //  Function Name :  AggregateAvg	
 	//  Description   :  Used to Display average of all marks
 	//  Input         :  NONE
 	//  Output        :  void
@@ -1194,8 +1194,8 @@
 		 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  SumOfMark	
+    	//
+    	//  Function Name :  SumOfMark	
 	//  Description   :  Used to Display Sum of all student marks
 	//  Input         :  NONE
 	//  Output        :  void
@@ -1219,8 +1219,8 @@
 		 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  Matching	
+    	//
+    	//  Function Name :  Matching	
 	//  Description   :  Used to Display Matching 
 	//  Input         :  byte
 	//  Output        :  void
@@ -1250,8 +1250,8 @@
 		 }
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  Matching	
+    	//
+        //  Function Name :  Matching	
 	//  Description   :  Used to Display Matching 
 	//  Input         :  byte,integer
 	//  Output        :  void
@@ -1298,13 +1298,13 @@
 		 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplayNameByAddrres
+        //
+        //  Function Name :  DisplayNameByAddrres
 	//  Description   :  Used to Display name by address 
 	//  Input         :  String ,String  
 	//  Output        :  void
-	//  Date 		  :  30/07/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  30/07/2022
+	//  Author 	  :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	 public void DisplayNameByAddrres(String str1,String str2)
@@ -1325,8 +1325,8 @@
 		 }
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplayRange
+        //
+        //  Function Name :  DisplayRange
 	//  Description   :  Used to Display by range 
 	//  Input         :  integer ,integer  
 	//  Output        :  void
@@ -1352,13 +1352,13 @@
 		 }
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  CountRoll
+        //
+        //  Function Name :  CountRoll
 	//  Description   :  Used to Count Roll No 
 	//  Input         :  String
 	//  Output        :  integer
-	//  Date 		  :  01/08/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  01/08/2022
+	//  Author 	  :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	 public int CountRoll(String address)
@@ -1377,8 +1377,8 @@
 		 return iCnt; 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  CountAll
+        //
+        //  Function Name :  CountAll
 	//  Description   :  Used to Count All Element in DBMS
 	//  Input         :  NONE
 	//  Output        :  integer
@@ -1396,13 +1396,13 @@
 		 return iCnt;
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :  DisplayGrpByAddress
+        //
+        //  Function Name :  DisplayGrpByAddress
 	//  Description   :  Used to Display Count of address from student group by address
 	//  Input         :  NONE
 	//  Output        :  void
-	//  Date 		  :  02/08/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  02/08/2022
+	//  Author 	  :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	public void DisplayGrpByAddress()
@@ -1420,13 +1420,13 @@
 		}			
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :	 DisplayOrderByName
+        //
+        //  Function Name :	 DisplayOrderByName
 	//  Description   :  Used to Display Order by name
 	//  Input         :  NONE
 	//  Output        :  void
-	//  Date 		  :  02/08/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  02/08/2022
+	//  Author 	  :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	 public void DisplayOrderByName()
@@ -1449,13 +1449,13 @@
 		 }
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :	 DeleteSpecific
+        //
+        //  Function Name :	 DeleteSpecific
 	//  Description   :  Used to Delete by RollNo
 	//  Input         :  integer
 	//  Output        :  void
-	//  Date 		  :  03/08/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  03/08/2022
+	//  Author 	  :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	public void DeleteSpecific(int rollno)
@@ -1475,13 +1475,13 @@
 	 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :	 DeleteSpecific
+        //
+        //  Function Name :	 DeleteSpecific
 	//  Description   :  Used to Delete by marks
 	//  Input         :  integer
 	//  Output        :  void
-	//  Date 		  :  03/08/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  03/08/2022
+	//  Author        :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	public void Deletespecific(int marks)
@@ -1500,13 +1500,13 @@
 	 
 	 }
 	/////////////////////////////////////////////////////////////////////
-    //
-    //  Function Name :	 DeleteSpecific
+        //
+        //  Function Name :	 DeleteSpecific
 	//  Description   :  Used to Delete All 
 	//  Input         :  NONE
 	//  Output        :  void
-	//  Date 		  :  03/08/2022
-	//  Author 		  :  Geetesh Gajanan Kumbalkar
+	//  Date 	  :  03/08/2022
+	//  Author 	  :  Geetesh Gajanan Kumbalkar
 	//
 	/////////////////////////////////////////////////////////////////////
 	 public void DeleteAll()
